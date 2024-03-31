@@ -5,6 +5,16 @@ Usage: `safExtractor.py <.saf file> <output path>`
 
 Note: Packer is W.I.P, The checksum is quite difficult to reverse engineer. The final packer will consist of getting an example game to generate the checksums for us first, and then building the file.
 
+The games that I'm aware of that use .SAF are:
+```
+Feeding Frenzy 2 Deluxe
+Feeding Frenzy Deluxe
+Iggle Pop Deluxe
+Pizza Frenzy
+Talismania Deluxe
+Word Harmony Deluxe
+```
+
 ## SAF File structure
 A SAF file is composed of the following structure:  
 `0x00000000`: 4 Byte Magic number (46 46 41 53 01)  
