@@ -33,4 +33,4 @@ For readability, `0xFILE_LIST_ITEM` = `0xFILE_LIST_BEGIN+20`
 `0xFILE_LIST_ITEM+26`: Empty Byte
 
 Next file begins at `0xFILE_LIST_ITEM+26+<file path length>`
-![SAF Diagram](https://i.imgur.com/szUSTHN.png)
+![SAF Diagram](https://i.imgur.com/95kcNZO.png)
